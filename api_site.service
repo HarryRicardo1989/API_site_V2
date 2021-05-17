@@ -1,0 +1,9 @@
+[Unit]
+Description=api_site
+
+[Service]
+Type=simple
+ExecStart=/etc/init.d/api_site start
+
+[Install]
+WantedBy=multi-user.target
